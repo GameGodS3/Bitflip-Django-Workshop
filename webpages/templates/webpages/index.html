@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="left">
+    <div class="homecontent">
+    <h1 class="who">Who are we?</h1>
+    <p class="whodesc">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto et, rerum libero unde repellendus sequi exercitationem doloremque iusto nesciunt odit aspernatur laboriosam similique.
+    </p>
+    <p> Recusandae natus ipsum tenetur odit ratione delectus pariatur quod, nesciunt perspiciatis amet unde quasi cum laboriosam reiciendis provident ut veritatis nobis facilis molestias! Voluptate ducimus fugiat voluptatibus.</p>
+    <div class="eventbtn" onclick="location.href = 'event.html'">
+        Events
+    </div>
+    </div>
+</div>
+<div class="right">
+    <img src="{% static 'webpages/images/pic.jpg' %}" alt="" style="max-width: 500px;" >
+</div>
+{% endblock %}
