@@ -77,6 +77,7 @@ body{
     max-height: 80vh;
     width: 50%;
     float: left;
+    overflow-y: auto;
 }
 .homecontent{
     padding: 50px;
@@ -112,4 +113,58 @@ body{
     justify-content: center;
     align-items: center;
     float: right;
+}
+
+/*Events page*/
+
+.card{
+    background-color: var(--wht);
+    padding: 3px;
+    border-radius: 7px;
+    list-style: none;
+}
+
+.eventlabel{
+    margin-left: 20px;
+}
+.eventtitle{
+    color: #3f009e;
+}
+.eventdesc{
+    color: #6b6b6b;
+    font-weight: lighter;
+}
+
+.formcontainer{
+    background-color: #260054;
+    color: var(--wht);
+    border-radius: 8px;
+    padding: 30px;
+    width: 70%;
+}
+.formtag{
+    margin: 0;
+}
+.formfields{
+    margin: 0;
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    width: 80%;
+    border-radius: 5px;
+}
+.sub-btn{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    color: var(--wht);
+    font-weight: bold;
+    background-color: var(--ylw);
+    border-radius: 18px;
+}
+.sub-btn:hover{
+    box-shadow: black 3px 3px 5px;
+    cursor: pointer;
 }
